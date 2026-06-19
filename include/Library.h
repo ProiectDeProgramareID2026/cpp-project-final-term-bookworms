@@ -29,6 +29,7 @@ public:
     bool returnBook(int id);
 
 private:
+// unique_ptr ensures automatic memory management.
     std::vector<std::unique_ptr<Book>> books_;
     FileManager fileManager_;
 
@@ -36,7 +37,8 @@ private:
     const Book* findById(int id) const;
     int nextId() const;
 
-    // Template helper: display books matching a predicate.
+    // Generic template used for displaying books that satisfy a given predicate 
+    //(i.e, title match, author match, availability)
     template<typename Predicate>
     void displayMatching(Predicate pred, const std::string& header) const;
 };
