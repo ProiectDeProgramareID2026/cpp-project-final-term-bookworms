@@ -1,0 +1,7 @@
+# id|title|author|type|location|isBorrowed|borrowTime
+1|The C Programming Language|Kernighan & Ritchie|Technical|A-12|0|0000000000
+2|The C Programming Language|Kernighan & Ritchie|Technical|A-12|1|1776456871
+3|Clean Code|Robert C. Martin|Software|B-04|0|0000000000
+4|Clean Code|Robert C. Martin|Software|B-04|1|1711600000
+5|Introduction to Algorithms|Cormen et al.|Textbook|C-01|0|0000000000
+6|Test Book|Test Author|Fiction|D-99|0|0000000000
